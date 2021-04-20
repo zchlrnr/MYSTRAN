@@ -144,6 +144,14 @@ sudo rm -r MYSTRAN
 
 Congragulations! You have just installed MYSTRAN.
 
+### Any Linux OS via Ansible
+
+**Important** the role is tested on Ubuntu 20.04. It *should* work on any debian derived OS. Please report any issue [on the issues tracker](https://framagit.org/numenic/mystran_instl_ansible_role/-/issues). 
+
+A basic [ansible role](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html) is available [here](https://framagit.org/numenic/mystran_instl_ansible_role).
+
+If ansible is available on your local machine, copy or clone the repo in your `roles` [subdirectory](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html#role-directory-structure). 
+
 </details>
 
 # Developmental Goals
